@@ -23,7 +23,7 @@ def crypto():
     message = client.messages.create(
                                       body='Current cardano price is '+cardano,
                                       from_='whatsapp:+14155238886',
-                                      to='whatsapp:+919260906197'
+                                      to='whatsapp:'
                                   )
     # print(message.sid)
 print("Running...")
